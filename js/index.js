@@ -26,3 +26,8 @@ function clearContent()
 {
     document.getElementById("output").value='';
 }
+
+document.querySelector('.backspace').addEventListener('click', backspacePressed);
+
+function backspacePressed() {
+  display.value = display.value.substring(0, display.value.length-1);
