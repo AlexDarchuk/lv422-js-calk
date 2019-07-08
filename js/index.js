@@ -26,3 +26,4 @@ function clearContent()
 {
     document.getElementById("output").value='';
 }
+
